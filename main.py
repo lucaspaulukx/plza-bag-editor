@@ -1,9 +1,9 @@
 import os
 import sys
 
-from lib.plaza.crypto.hashdb import HashDB
-from lib.plaza.crypto.swishcrypto import SwishCrypto
-from lib.plaza.types.bagsave import BagSave, BagEntry
+from lib.plaza.crypto import HashDB, SwishCrypto
+from lib.plaza.types import BagSave, BagEntry, CategoryType
+from lib.plaza.util.items import item_db
 
 
 save_file_magic = bytes([
@@ -56,13 +56,51 @@ if __name__ == "__main__":
 
     print(f"Parsed BagSave: {parsed_bag_save}")
 
+    print(parsed_bag_save)
+
     edited_count = 0
     for i, entry in enumerate(parsed_bag_save.entries):
         if not entry.quantity: continue
-        if entry.category < 0:
+
+        # * Category < 0 causes crash
+        if entry.category.value < 0:
+            print(f"Item with corrupt category encountered")
+            if i in item_db and not item_db[i]["canonical_name"].endswith("NAITO"):
+                print(f"Restored {item_db[i]['english_ui_name']}")
+                entry.category = item_db[i]["expected_category"].value
+            else:
+                entry.quantity = 0
+            parsed_bag_save.set_entry(i, BagEntry.from_bytes(entry.to_bytes()))
+            edited_count += 1
+            continue
+
+        # * Item is not used
+        if not i in item_db:
+            print(f"Removing item at index {i}")
             entry.quantity = 0
             parsed_bag_save.set_entry(i, BagEntry.from_bytes(entry.to_bytes()))
             edited_count += 1
+            continue
+
+        # * Item has wrong category
+        if entry.category != item_db[i]["expected_category"]:
+            print(f"Editing category of {item_db[i]['english_ui_name']} ({entry.category} -> {item_db[i]['expected_category']})")
+            entry.category = item_db[i]["expected_category"].value
+            parsed_bag_save.set_entry(i, BagEntry.from_bytes(entry.to_bytes()))
+            edited_count += 1
+            continue
+
+        # * Mega Stone Quantity Check
+        if (
+            entry.category == CategoryType.OTHER
+            and item_db[i]["canonical_name"].strip("xy").endswith("NAITO")
+            and entry.quantity > 1
+        ):
+            print(f"Editing quantity of {item_db[i]['english_ui_name']}")
+            entry.quantity = 1
+            parsed_bag_save.set_entry(i, BagEntry.from_bytes(entry.to_bytes()))
+            edited_count += 1
+            continue
 
     if not edited_count:
         print("No items needed to be modified!")

@@ -5,6 +5,7 @@ import sys
 
 from lib.plaza.crypto import HashDB, SwishCrypto
 from lib.plaza.types import BagEntry, BagSave, CategoryType
+from lib.plaza.types.accessors import HashDBKeys
 from lib.plaza.util.items import item_db
 
 save_file_magic = bytes([
@@ -73,8 +74,7 @@ def main():
     log(f"{SwishCrypto.get_is_hash_valid(data)=}")
     hash_db = HashDB(blocks)
     try:
-        bag_save_index = 0x21C9BD44
-        bag_save = hash_db[bag_save_index]
+        bag_save = hash_db[HashDBKeys.BagSave]
     except KeyError:
         log("BagSave index not found", {"success": False})
         sys.exit(1)
@@ -96,13 +96,17 @@ def main():
         # noinspection PyTypeChecker
         if entry.category.value < 0:
             log(f"Item with corrupt category encountered")
-            if i in item_db and not item_db[i]["canonical_name"].endswith("NAITO"):
-                log(f"Restored {item_db[i]['english_ui_name']}")
+            if i in item_db and not item_db[i]["canonical_name"].strip("xy").endswith("NAITO"):
                 entry.category = item_db[i]["expected_category"].value
+                log(f"Restored {item_db[i]['english_ui_name']}")
+            elif i in item_db and item_db[i]["canonical_name"].strip("xy").endswith("NAITO"):
+                entry.category = item_db[i]["expected_category"].value
+                entry.quantity = 1
             else:
                 entry.quantity = 0
             parsed_bag_save.set_entry(i, BagEntry.from_bytes(entry.to_bytes()))
             edited_count += 1
+            continue
 
         # * Item is not used
         if i not in item_db:
@@ -138,7 +142,7 @@ def main():
 
     log(f"Done! Modified {edited_count} entries", {"edited_count": edited_count, "success": True})
 
-    hash_db[bag_save_index].change_data(parsed_bag_save.to_bytes())
+    hash_db[HashDBKeys.BagSave].change_data(parsed_bag_save.to_bytes())
 
     # * Determine output file path
     if args.output_file:

@@ -1,3 +1,4 @@
+import argparse
 import json
 import os
 import sys
@@ -7,35 +8,55 @@ from lib.plaza.types import BagEntry, BagSave, CategoryType
 from lib.plaza.util.items import item_db
 
 save_file_magic = bytes([
-	0x17, 0x2D, 0xBB, 0x06, 0xEA
+    0x17, 0x2D, 0xBB, 0x06, 0xEA
 ])
 
-if __name__ == "__main__":
-    output_normally = True
-    # noinspection DuplicatedCode
-    if not sys.argv[1:]:
-        print("Usage: python main.py <path_to_file>")
-        sys.exit(1)
 
-    file_path = sys.argv[1]
-    if len(sys.argv) > 2:
-        output_normally = False
+def main():
+    parser = argparse.ArgumentParser(
+        description="PLZA Save Repair Script",
+        formatter_class=argparse.RawDescriptionHelpFormatter
+    )
+    parser.add_argument(
+        'save_file',
+        help='Path to the save file to process'
+    )
+    parser.add_argument(
+        '--json-output',
+        action='store_true',
+        help='Output results in JSON format'
+    )
+    parser.add_argument(
+        '--keep-mega',
+        action='store_true',
+        help='Skip fixing mega stone quantities (keep existing quantities)'
+    )
+    parser.add_argument(
+        '--output',
+        '-o',
+        dest='output_file',
+        help='Output file path (default: <save_file>_modified)'
+    )
 
-    def log(message: str, _data = None):
-        if not _data:
+    args = parser.parse_args()
+
+    def log(message: str, _data=None):
+        if _data is None:
             _data = {}
 
-        if output_normally: return print(message)
-        elif not output_normally and _data: return print(json.dumps(_data | {"log": message}, indent=4))
+        if not args.json_output:
+            print(message)
+        elif args.json_output and _data:
+            print(json.dumps(_data | {"log": message}, indent=4))
 
-    log(f"PLZA Save Repair Script")
-    log(f"File path: {file_path}")
+    log("PLZA Save Repair Script")
+    log(f"File path: {args.save_file}")
 
-    if not os.path.exists(file_path):
-        log(f"File not found: {file_path}", {"success": False})
+    if not os.path.exists(args.save_file):
+        log(f"File not found: {args.save_file}", {"success": False})
         sys.exit(1)
 
-    with open(file_path, "rb") as f:
+    with open(args.save_file, "rb") as f:
         data = f.read()
 
     if not data.startswith(save_file_magic):
@@ -54,7 +75,7 @@ if __name__ == "__main__":
     try:
         bag_save_index = 0x21C9BD44
         bag_save = hash_db[bag_save_index]
-    except KeyError as e:
+    except KeyError:
         log("BagSave index not found", {"success": False})
         sys.exit(1)
 
@@ -66,13 +87,13 @@ if __name__ == "__main__":
 
     log(f"Parsed BagSave: {parsed_bag_save}")
 
-    log(parsed_bag_save)
-
     edited_count = 0
     for i, entry in enumerate(parsed_bag_save.entries):
-        if not entry.quantity: continue
+        if not entry.quantity:
+            continue
 
         # * Category < 0 causes crash
+        # noinspection PyTypeChecker
         if entry.category.value < 0:
             log(f"Item with corrupt category encountered")
             if i in item_db and not item_db[i]["canonical_name"].endswith("NAITO"):
@@ -84,7 +105,7 @@ if __name__ == "__main__":
             edited_count += 1
 
         # * Item is not used
-        if not i in item_db:
+        if i not in item_db:
             log(f"Removing item at index {i}")
             entry.quantity = 0
             entry.category = 0
@@ -99,11 +120,12 @@ if __name__ == "__main__":
             parsed_bag_save.set_entry(i, BagEntry.from_bytes(entry.to_bytes()))
             edited_count += 1
 
-        # * Mega Stone Quantity Check
+        # * Mega Stone Quantity Check (skip if --keep-mega is specified)
         if (
-            entry.category == CategoryType.OTHER
-            and item_db[i]["canonical_name"].strip("xy").endswith("NAITO")
-            and entry.quantity > 1
+                not args.keep_mega
+                and entry.category == CategoryType.OTHER
+                and item_db[i]["canonical_name"].strip("xy").endswith("NAITO")
+                and entry.quantity > 1
         ):
             log(f"Editing quantity of {item_db[i]['english_ui_name']}")
             entry.quantity = 1
@@ -118,10 +140,19 @@ if __name__ == "__main__":
 
     hash_db[bag_save_index].change_data(parsed_bag_save.to_bytes())
 
-    out = SwishCrypto.encrypt(hash_db.blocks)
-    log(f"Writing Modified file to {file_path}_modified")
+    # * Determine output file path
+    if args.output_file:
+        output_path = args.output_file
+    else:
+        output_path = args.save_file + "_modified"
 
-    with open(file_path + "_modified", "wb") as f:
-        f.write(out)
+    log(f"Writing Modified file to {output_path}")
+
+    with open(output_path, "wb") as f:
+        f.write(SwishCrypto.encrypt(hash_db.blocks))
 
     log(f"Wrote File, Exiting")
+
+
+if __name__ == "__main__":
+    main()

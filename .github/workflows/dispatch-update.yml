@@ -1,0 +1,15 @@
+name: Dispatch Update Submodule
+on:
+  push:
+    branches:
+      - main
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dispatch update to plza-recovery-web
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.TOKEN }}
+          repository: azalea-w/plza-recovery-web
+          event-type: update-submodule

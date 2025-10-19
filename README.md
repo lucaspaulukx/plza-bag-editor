@@ -6,7 +6,7 @@
 ## What's this?
 
 This is a tool used to repair corrupted save files for **Pokémon Legends Z-A**, written in Python.  
-Currently, it focuses on **bag corruption**, but additional recovery methods for other inconsistencies are planned.
+It can **automatically repair bag corruption** or **manually edit items** through an interactive interface.
 
 ---
 
@@ -18,47 +18,54 @@ Currently, it focuses on **bag corruption**, but additional recovery methods for
 
 ## 🚀 How to use
 
-1. **Dump your save** using [JKSV](https://github.com/J-D-K/JKSV) or a similar save manager.  
-2. **Copy your save file** (usually named `main`) to your PC.  
-3. **Download the latest release ZIP** from the [Releases](https://github.com/azalea-w/plza-recovery/releases) section.  
-4. **Extract** the ZIP file to a folder of your choice.  
-5. **Open your terminal** (PowerShell or CMD on Windows, or any shell on Linux/macOS).  
-6. **Run the script:**
+### 1. Automatic Repair Mode (`main.py`)
 
-   ```bash
-   python main.py <path/to/save/main>
-   ```
+Run this to automatically repair corrupted bag data and generate a fixed save file.
 
-   Example:
-   ```bash
-   python main.py "C:\Users\YourName\Desktop\main"
-   ```
+```bash
+python main.py <path/to/save/main>
+```
 
-7. Once running, you will see the **main menu**:
+Example:
+```bash
+python main.py "C:\Users\YourName\Desktop\main"
+```
 
-   ```
-   ========= PLZA Bag Manager =========
-   [1] List items
-   [2] Add item
-   [3] Remove item
-   [4] Save and exit
-   [5] Exit without saving
-   ====================================
-   ```
+After the process finishes, a new file will be created with `_modified` appended to the name:
 
-   - **List items** — Displays all current items in your bag, with their categories and quantities.  
-   - **Add item** — Lets you pick a category, choose an item, and set a quantity to add.  
-   - **Remove item** — Lets you pick a category and remove specific items from your bag.  
-   - **Save and exit** — Saves your changes to a new file.  
-   - **Exit without saving** — Quits the program without modifying anything.
+```
+main -> main_modified
+```
 
-8. After saving, a new file will be created with `_modified` appended to the original filename.  
-   Example:
-   ```
-   main -> main_modified
-   ```
+You can then restore this file to your console using **JKSV** or another save manager.
 
-9. Restore the modified save to your console using **JKSV** or another compatible save manager.
+---
+
+### 2. Interactive Editor Mode (`terminal.py`)
+
+Run this to manually inspect or modify items in your bag.
+
+```bash
+python terminal.py <path/to/save/main>
+```
+
+You will see the following menu:
+
+```
+========= PLZA Bag Manager =========
+[1] List items
+[2] Add item
+[3] Remove item
+[4] Save and exit
+[5] Exit without saving
+====================================
+```
+
+- **List items** — Displays all current items in your bag with category and quantity.  
+- **Add item** — Lets you pick a category and add a specific item.  
+- **Remove item** — Removes items by category or ID.  
+- **Save and exit** — Writes your modifications to a new save file.  
+- **Exit without saving** — Closes without changing your save.
 
 ---
 

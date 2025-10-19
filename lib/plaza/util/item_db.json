@@ -1,0 +1,2372 @@
+{
+    "1": {
+        "idx": 1,
+        "canonical_name": "ITEMID_MASUTAABOORU",
+        "english_ui_name": "Master Ball",
+        "expected_category": 1
+    },
+    "2": {
+        "idx": 2,
+        "canonical_name": "ITEMID_HAIPAABOORU",
+        "english_ui_name": "Ultra Ball",
+        "expected_category": 1
+    },
+    "3": {
+        "idx": 3,
+        "canonical_name": "ITEMID_SUUPAABOORU",
+        "english_ui_name": "Great Ball",
+        "expected_category": 1
+    },
+    "4": {
+        "idx": 4,
+        "canonical_name": "ITEMID_MONSUTAABOORU",
+        "english_ui_name": "Pok\u00e9 Ball",
+        "expected_category": 1
+    },
+    "5": {
+        "idx": 5,
+        "canonical_name": "ITEMID_SAFARIBOORU",
+        "english_ui_name": "Safari Ball",
+        "expected_category": 1
+    },
+    "6": {
+        "idx": 6,
+        "canonical_name": "ITEMID_NETTOBOORU",
+        "english_ui_name": "Net Ball",
+        "expected_category": 1
+    },
+    "7": {
+        "idx": 7,
+        "canonical_name": "ITEMID_DAIBUBOORU",
+        "english_ui_name": "Dive Ball",
+        "expected_category": 1
+    },
+    "8": {
+        "idx": 8,
+        "canonical_name": "ITEMID_NESUTOBOORU",
+        "english_ui_name": "Nest Ball",
+        "expected_category": 1
+    },
+    "9": {
+        "idx": 9,
+        "canonical_name": "ITEMID_RIPIITOBOORU",
+        "english_ui_name": "Repeat Ball",
+        "expected_category": 1
+    },
+    "10": {
+        "idx": 10,
+        "canonical_name": "ITEMID_TAIMAABOORU",
+        "english_ui_name": "Timer Ball",
+        "expected_category": 1
+    },
+    "11": {
+        "idx": 11,
+        "canonical_name": "ITEMID_GOOZYASUBOORU",
+        "english_ui_name": "Luxury Ball",
+        "expected_category": 1
+    },
+    "12": {
+        "idx": 12,
+        "canonical_name": "ITEMID_PUREMIABOORU",
+        "english_ui_name": "Premier Ball",
+        "expected_category": 1
+    },
+    "13": {
+        "idx": 13,
+        "canonical_name": "ITEMID_DAAKUBOORU",
+        "english_ui_name": "Dusk Ball",
+        "expected_category": 1
+    },
+    "14": {
+        "idx": 14,
+        "canonical_name": "ITEMID_HIIRUBOORU",
+        "english_ui_name": "Heal Ball",
+        "expected_category": 1
+    },
+    "15": {
+        "idx": 15,
+        "canonical_name": "ITEMID_KUIKKUBOORU",
+        "english_ui_name": "Quick Ball",
+        "expected_category": 1
+    },
+    "16": {
+        "idx": 16,
+        "canonical_name": "ITEMID_PURESYASUBOORU",
+        "english_ui_name": "Cherish Ball",
+        "expected_category": 1
+    },
+    "17": {
+        "idx": 17,
+        "canonical_name": "ITEMID_KIZUGUSURI",
+        "english_ui_name": "Potion",
+        "expected_category": 0
+    },
+    "18": {
+        "idx": 18,
+        "canonical_name": "ITEMID_DOKUKESI",
+        "english_ui_name": "Antidote",
+        "expected_category": 0
+    },
+    "19": {
+        "idx": 19,
+        "canonical_name": "ITEMID_YAKEDONAOSI",
+        "english_ui_name": "Burn Heal",
+        "expected_category": 0
+    },
+    "20": {
+        "idx": 20,
+        "canonical_name": "ITEMID_KOORINAOSI",
+        "english_ui_name": "Ice Heal",
+        "expected_category": 0
+    },
+    "21": {
+        "idx": 21,
+        "canonical_name": "ITEMID_NEMUKEZAMASI",
+        "english_ui_name": "Awakening",
+        "expected_category": 0
+    },
+    "22": {
+        "idx": 22,
+        "canonical_name": "ITEMID_MAHINAOSI",
+        "english_ui_name": "Paralyze Heal",
+        "expected_category": 0
+    },
+    "23": {
+        "idx": 23,
+        "canonical_name": "ITEMID_KAIHUKUNOKUSURI",
+        "english_ui_name": "Full Restore",
+        "expected_category": 0
+    },
+    "24": {
+        "idx": 24,
+        "canonical_name": "ITEMID_MANTANNOKUSURI",
+        "english_ui_name": "Max Potion",
+        "expected_category": 0
+    },
+    "25": {
+        "idx": 25,
+        "canonical_name": "ITEMID_SUGOIKIZUGUSURI",
+        "english_ui_name": "Hyper Potion",
+        "expected_category": 0
+    },
+    "26": {
+        "idx": 26,
+        "canonical_name": "ITEMID_IIKIZUGUSURI",
+        "english_ui_name": "Super Potion",
+        "expected_category": 0
+    },
+    "27": {
+        "idx": 27,
+        "canonical_name": "ITEMID_NANDEMONAOSI",
+        "english_ui_name": "Full Heal",
+        "expected_category": 0
+    },
+    "28": {
+        "idx": 28,
+        "canonical_name": "ITEMID_GENKINOKAKERA",
+        "english_ui_name": "Revive",
+        "expected_category": 0
+    },
+    "29": {
+        "idx": 29,
+        "canonical_name": "ITEMID_GENKINOKATAMARI",
+        "english_ui_name": "Max Revive",
+        "expected_category": 0
+    },
+    "30": {
+        "idx": 30,
+        "canonical_name": "ITEMID_OISIIMIZU",
+        "english_ui_name": "Fresh Water",
+        "expected_category": 0
+    },
+    "31": {
+        "idx": 31,
+        "canonical_name": "ITEMID_SAIKOSOODA",
+        "english_ui_name": "Soda Pop",
+        "expected_category": 0
+    },
+    "32": {
+        "idx": 32,
+        "canonical_name": "ITEMID_MIKKUSUORE",
+        "english_ui_name": "Lemonade",
+        "expected_category": 0
+    },
+    "33": {
+        "idx": 33,
+        "canonical_name": "ITEMID_MOOMOOMIRUKU",
+        "english_ui_name": "Moomoo Milk",
+        "expected_category": 0
+    },
+    "45": {
+        "idx": 45,
+        "canonical_name": "ITEMID_MAKKUSUAPPU",
+        "english_ui_name": "HP Up",
+        "expected_category": 2
+    },
+    "46": {
+        "idx": 46,
+        "canonical_name": "ITEMID_TAURIN",
+        "english_ui_name": "Protein",
+        "expected_category": 2
+    },
+    "47": {
+        "idx": 47,
+        "canonical_name": "ITEMID_BUROMUHEKISIN",
+        "english_ui_name": "Iron",
+        "expected_category": 2
+    },
+    "48": {
+        "idx": 48,
+        "canonical_name": "ITEMID_INDOMETASIN",
+        "english_ui_name": "Carbos",
+        "expected_category": 2
+    },
+    "49": {
+        "idx": 49,
+        "canonical_name": "ITEMID_RIZOTIUMU",
+        "english_ui_name": "Calcium",
+        "expected_category": 2
+    },
+    "50": {
+        "idx": 50,
+        "canonical_name": "ITEMID_HUSIGINAAME",
+        "english_ui_name": "Rare Candy",
+        "expected_category": 2
+    },
+    "52": {
+        "idx": 52,
+        "canonical_name": "ITEMID_KITOSAN",
+        "english_ui_name": "Zinc",
+        "expected_category": 2
+    },
+    "80": {
+        "idx": 80,
+        "canonical_name": "ITEMID_TAIYOUNOISI",
+        "english_ui_name": "Sun Stone",
+        "expected_category": 2
+    },
+    "81": {
+        "idx": 81,
+        "canonical_name": "ITEMID_TUKINOISI",
+        "english_ui_name": "Moon Stone",
+        "expected_category": 2
+    },
+    "82": {
+        "idx": 82,
+        "canonical_name": "ITEMID_HONOONOISI",
+        "english_ui_name": "Fire Stone",
+        "expected_category": 2
+    },
+    "83": {
+        "idx": 83,
+        "canonical_name": "ITEMID_KAMINARINOISI",
+        "english_ui_name": "Thunder Stone",
+        "expected_category": 2
+    },
+    "84": {
+        "idx": 84,
+        "canonical_name": "ITEMID_MIZUNOISI",
+        "english_ui_name": "Water Stone",
+        "expected_category": 2
+    },
+    "85": {
+        "idx": 85,
+        "canonical_name": "ITEMID_RIIHUNOISI",
+        "english_ui_name": "Leaf Stone",
+        "expected_category": 2
+    },
+    "86": {
+        "idx": 86,
+        "canonical_name": "ITEMID_TIISANAKINOKO",
+        "english_ui_name": "Tiny Mushroom",
+        "expected_category": 3
+    },
+    "88": {
+        "idx": 88,
+        "canonical_name": "ITEMID_SINZYU",
+        "english_ui_name": "Pearl",
+        "expected_category": 3
+    },
+    "89": {
+        "idx": 89,
+        "canonical_name": "ITEMID_OOKINASINZYU",
+        "english_ui_name": "Big Pearl",
+        "expected_category": 3
+    },
+    "92": {
+        "idx": 92,
+        "canonical_name": "ITEMID_KINNOTAMA",
+        "english_ui_name": "Nugget",
+        "expected_category": 3
+    },
+    "103": {
+        "idx": 103,
+        "canonical_name": "ITEMID_HIMITUNOKOHAKU",
+        "english_ui_name": "Old Amber",
+        "expected_category": 2
+    },
+    "107": {
+        "idx": 107,
+        "canonical_name": "ITEMID_HIKARINOISI",
+        "english_ui_name": "Shiny Stone",
+        "expected_category": 2
+    },
+    "108": {
+        "idx": 108,
+        "canonical_name": "ITEMID_YAMINOISI",
+        "english_ui_name": "Dusk Stone",
+        "expected_category": 2
+    },
+    "109": {
+        "idx": 109,
+        "canonical_name": "ITEMID_MEZAMEISI",
+        "english_ui_name": "Dawn Stone",
+        "expected_category": 2
+    },
+    "149": {
+        "idx": 149,
+        "canonical_name": "ITEMID_KURABONOMI",
+        "english_ui_name": "Cheri Berry",
+        "expected_category": 5
+    },
+    "150": {
+        "idx": 150,
+        "canonical_name": "ITEMID_KAGONOMI",
+        "english_ui_name": "Chesto Berry",
+        "expected_category": 5
+    },
+    "151": {
+        "idx": 151,
+        "canonical_name": "ITEMID_MOMONNOMI",
+        "english_ui_name": "Pecha Berry",
+        "expected_category": 5
+    },
+    "152": {
+        "idx": 152,
+        "canonical_name": "ITEMID_TIIGONOMI",
+        "english_ui_name": "Rawst Berry",
+        "expected_category": 5
+    },
+    "153": {
+        "idx": 153,
+        "canonical_name": "ITEMID_NANASINOMI",
+        "english_ui_name": "Aspear Berry",
+        "expected_category": 5
+    },
+    "155": {
+        "idx": 155,
+        "canonical_name": "ITEMID_ORENNOMI",
+        "english_ui_name": "Oran Berry",
+        "expected_category": 5
+    },
+    "156": {
+        "idx": 156,
+        "canonical_name": "ITEMID_KIINOMI",
+        "english_ui_name": "Persim Berry",
+        "expected_category": 5
+    },
+    "157": {
+        "idx": 157,
+        "canonical_name": "ITEMID_RAMUNOMI",
+        "english_ui_name": "Lum Berry",
+        "expected_category": 5
+    },
+    "158": {
+        "idx": 158,
+        "canonical_name": "ITEMID_OBONNOMI",
+        "english_ui_name": "Sitrus Berry",
+        "expected_category": 5
+    },
+    "169": {
+        "idx": 169,
+        "canonical_name": "ITEMID_ZAROKUNOMI",
+        "english_ui_name": "Pomeg Berry",
+        "expected_category": 5
+    },
+    "170": {
+        "idx": 170,
+        "canonical_name": "ITEMID_NEKOBUNOMI",
+        "english_ui_name": "Kelpsy Berry",
+        "expected_category": 5
+    },
+    "171": {
+        "idx": 171,
+        "canonical_name": "ITEMID_TAPORUNOMI",
+        "english_ui_name": "Qualot Berry",
+        "expected_category": 5
+    },
+    "172": {
+        "idx": 172,
+        "canonical_name": "ITEMID_ROMENOMI",
+        "english_ui_name": "Hondew Berry",
+        "expected_category": 5
+    },
+    "173": {
+        "idx": 173,
+        "canonical_name": "ITEMID_UBUNOMI",
+        "english_ui_name": "Grepa Berry",
+        "expected_category": 5
+    },
+    "174": {
+        "idx": 174,
+        "canonical_name": "ITEMID_MATOMANOMI",
+        "english_ui_name": "Tamato Berry",
+        "expected_category": 5
+    },
+    "184": {
+        "idx": 184,
+        "canonical_name": "ITEMID_OKKANOMI",
+        "english_ui_name": "Occa Berry",
+        "expected_category": 5
+    },
+    "185": {
+        "idx": 185,
+        "canonical_name": "ITEMID_ITOKENOMI",
+        "english_ui_name": "Passho Berry",
+        "expected_category": 5
+    },
+    "186": {
+        "idx": 186,
+        "canonical_name": "ITEMID_SOKUNONOMI",
+        "english_ui_name": "Wacan Berry",
+        "expected_category": 5
+    },
+    "187": {
+        "idx": 187,
+        "canonical_name": "ITEMID_RINDONOMI",
+        "english_ui_name": "Rindo Berry",
+        "expected_category": 5
+    },
+    "188": {
+        "idx": 188,
+        "canonical_name": "ITEMID_YATHENOMI",
+        "english_ui_name": "Yache Berry",
+        "expected_category": 5
+    },
+    "189": {
+        "idx": 189,
+        "canonical_name": "ITEMID_YOPUNOMI",
+        "english_ui_name": "Chople Berry",
+        "expected_category": 5
+    },
+    "190": {
+        "idx": 190,
+        "canonical_name": "ITEMID_BIAANOMI",
+        "english_ui_name": "Kebia Berry",
+        "expected_category": 5
+    },
+    "191": {
+        "idx": 191,
+        "canonical_name": "ITEMID_SYUKANOMI",
+        "english_ui_name": "Shuca Berry",
+        "expected_category": 5
+    },
+    "192": {
+        "idx": 192,
+        "canonical_name": "ITEMID_BAKOUNOMI",
+        "english_ui_name": "Coba Berry",
+        "expected_category": 5
+    },
+    "193": {
+        "idx": 193,
+        "canonical_name": "ITEMID_UTANNOMI",
+        "english_ui_name": "Payapa Berry",
+        "expected_category": 5
+    },
+    "194": {
+        "idx": 194,
+        "canonical_name": "ITEMID_TANGANOMI",
+        "english_ui_name": "Tanga Berry",
+        "expected_category": 5
+    },
+    "195": {
+        "idx": 195,
+        "canonical_name": "ITEMID_YOROGINOMI",
+        "english_ui_name": "Charti Berry",
+        "expected_category": 5
+    },
+    "196": {
+        "idx": 196,
+        "canonical_name": "ITEMID_KASIBUNOMI",
+        "english_ui_name": "Kasib Berry",
+        "expected_category": 5
+    },
+    "197": {
+        "idx": 197,
+        "canonical_name": "ITEMID_HABANNOMI",
+        "english_ui_name": "Haban Berry",
+        "expected_category": 5
+    },
+    "198": {
+        "idx": 198,
+        "canonical_name": "ITEMID_NAMONOMI",
+        "english_ui_name": "Colbur Berry",
+        "expected_category": 5
+    },
+    "199": {
+        "idx": 199,
+        "canonical_name": "ITEMID_RIRIBANOMI",
+        "english_ui_name": "Babiri Berry",
+        "expected_category": 5
+    },
+    "200": {
+        "idx": 200,
+        "canonical_name": "ITEMID_HOZUNOMI",
+        "english_ui_name": "Chilan Berry",
+        "expected_category": 5
+    },
+    "214": {
+        "idx": 214,
+        "canonical_name": "ITEMID_SIROIHAABU",
+        "english_ui_name": "White Herb",
+        "expected_category": 2
+    },
+    "217": {
+        "idx": 217,
+        "canonical_name": "ITEMID_SENSEINOTUME",
+        "english_ui_name": "Quick Claw",
+        "expected_category": 2
+    },
+    "218": {
+        "idx": 218,
+        "canonical_name": "ITEMID_YASURAGINOSUZU",
+        "english_ui_name": "Soothe Bell",
+        "expected_category": 2
+    },
+    "221": {
+        "idx": 221,
+        "canonical_name": "ITEMID_OUZYANOSIRUSI",
+        "english_ui_name": "King\u2019s Rock",
+        "expected_category": 2
+    },
+    "222": {
+        "idx": 222,
+        "canonical_name": "ITEMID_GINNOKONA",
+        "english_ui_name": "Silver Powder",
+        "expected_category": 2
+    },
+    "230": {
+        "idx": 230,
+        "canonical_name": "ITEMID_KIAINOHATIMAKI",
+        "english_ui_name": "Focus Band",
+        "expected_category": 2
+    },
+    "231": {
+        "idx": 231,
+        "canonical_name": "ITEMID_SIAWASETAMAGO",
+        "english_ui_name": "Lucky Egg",
+        "expected_category": 2
+    },
+    "232": {
+        "idx": 232,
+        "canonical_name": "ITEMID_PINTORENZU",
+        "english_ui_name": "Scope Lens",
+        "expected_category": 2
+    },
+    "233": {
+        "idx": 233,
+        "canonical_name": "ITEMID_METARUKOOTO",
+        "english_ui_name": "Metal Coat",
+        "expected_category": 2
+    },
+    "234": {
+        "idx": 234,
+        "canonical_name": "ITEMID_TABENOKOSI",
+        "english_ui_name": "Leftovers",
+        "expected_category": 2
+    },
+    "236": {
+        "idx": 236,
+        "canonical_name": "ITEMID_DENKIDAMA",
+        "english_ui_name": "Light Ball",
+        "expected_category": 2
+    },
+    "237": {
+        "idx": 237,
+        "canonical_name": "ITEMID_YAWARAKAISUNA",
+        "english_ui_name": "Soft Sand",
+        "expected_category": 2
+    },
+    "238": {
+        "idx": 238,
+        "canonical_name": "ITEMID_KATAIISI",
+        "english_ui_name": "Hard Stone",
+        "expected_category": 2
+    },
+    "239": {
+        "idx": 239,
+        "canonical_name": "ITEMID_KISEKINOTANE",
+        "english_ui_name": "Miracle Seed",
+        "expected_category": 2
+    },
+    "240": {
+        "idx": 240,
+        "canonical_name": "ITEMID_KUROIMEGANE",
+        "english_ui_name": "Black Glasses",
+        "expected_category": 2
+    },
+    "241": {
+        "idx": 241,
+        "canonical_name": "ITEMID_KUROOBI",
+        "english_ui_name": "Black Belt",
+        "expected_category": 2
+    },
+    "242": {
+        "idx": 242,
+        "canonical_name": "ITEMID_ZISYAKU",
+        "english_ui_name": "Magnet",
+        "expected_category": 2
+    },
+    "243": {
+        "idx": 243,
+        "canonical_name": "ITEMID_SINPINOSIZUKU",
+        "english_ui_name": "Mystic Water",
+        "expected_category": 2
+    },
+    "244": {
+        "idx": 244,
+        "canonical_name": "ITEMID_SURUDOIKUTIBASI",
+        "english_ui_name": "Sharp Beak",
+        "expected_category": 2
+    },
+    "245": {
+        "idx": 245,
+        "canonical_name": "ITEMID_DOKUBARI",
+        "english_ui_name": "Poison Barb",
+        "expected_category": 2
+    },
+    "246": {
+        "idx": 246,
+        "canonical_name": "ITEMID_TOKENAIKOORI",
+        "english_ui_name": "Never-Melt Ice",
+        "expected_category": 2
+    },
+    "247": {
+        "idx": 247,
+        "canonical_name": "ITEMID_NOROINOOHUDA",
+        "english_ui_name": "Spell Tag",
+        "expected_category": 2
+    },
+    "248": {
+        "idx": 248,
+        "canonical_name": "ITEMID_MAGATTASUPUUN",
+        "english_ui_name": "Twisted Spoon",
+        "expected_category": 2
+    },
+    "249": {
+        "idx": 249,
+        "canonical_name": "ITEMID_MOKUTAN",
+        "english_ui_name": "Charcoal",
+        "expected_category": 2
+    },
+    "250": {
+        "idx": 250,
+        "canonical_name": "ITEMID_RYUUNOKIBA",
+        "english_ui_name": "Dragon Fang",
+        "expected_category": 2
+    },
+    "251": {
+        "idx": 251,
+        "canonical_name": "ITEMID_SIRUKUNOSUKAAHU",
+        "english_ui_name": "Silk Scarf",
+        "expected_category": 2
+    },
+    "253": {
+        "idx": 253,
+        "canonical_name": "ITEMID_KAIGARANOSUZU",
+        "english_ui_name": "Shell Bell",
+        "expected_category": 2
+    },
+    "266": {
+        "idx": 266,
+        "canonical_name": "ITEMID_TIKARANOHATIMAKI",
+        "english_ui_name": "Muscle Band",
+        "expected_category": 2
+    },
+    "267": {
+        "idx": 267,
+        "canonical_name": "ITEMID_MONOSIRIMEGANE",
+        "english_ui_name": "Wise Glasses",
+        "expected_category": 2
+    },
+    "268": {
+        "idx": 268,
+        "canonical_name": "ITEMID_TATUZINNOOBI",
+        "english_ui_name": "Expert Belt",
+        "expected_category": 2
+    },
+    "270": {
+        "idx": 270,
+        "canonical_name": "ITEMID_INOTINOTAMA",
+        "english_ui_name": "Life Orb",
+        "expected_category": 2
+    },
+    "275": {
+        "idx": 275,
+        "canonical_name": "ITEMID_KIAINOTASUKI",
+        "english_ui_name": "Focus Sash",
+        "expected_category": 2
+    },
+    "289": {
+        "idx": 289,
+        "canonical_name": "ITEMID_PAWAARISUTO",
+        "english_ui_name": "Power Bracer",
+        "expected_category": 2
+    },
+    "290": {
+        "idx": 290,
+        "canonical_name": "ITEMID_PAWAABERUTO",
+        "english_ui_name": "Power Belt",
+        "expected_category": 2
+    },
+    "291": {
+        "idx": 291,
+        "canonical_name": "ITEMID_PAWAARENZU",
+        "english_ui_name": "Power Lens",
+        "expected_category": 2
+    },
+    "292": {
+        "idx": 292,
+        "canonical_name": "ITEMID_PAWAABANDO",
+        "english_ui_name": "Power Band",
+        "expected_category": 2
+    },
+    "293": {
+        "idx": 293,
+        "canonical_name": "ITEMID_PAWAAANKURU",
+        "english_ui_name": "Power Anklet",
+        "expected_category": 2
+    },
+    "294": {
+        "idx": 294,
+        "canonical_name": "ITEMID_PAWAAUEITO",
+        "english_ui_name": "Power Weight",
+        "expected_category": 2
+    },
+    "296": {
+        "idx": 296,
+        "canonical_name": "ITEMID_OOKINANEKKO",
+        "english_ui_name": "Big Root",
+        "expected_category": 2
+    },
+    "328": {
+        "idx": 328,
+        "canonical_name": "ITEMID_WAZAMASIN01",
+        "english_ui_name": "TM001",
+        "expected_category": 6
+    },
+    "329": {
+        "idx": 329,
+        "canonical_name": "ITEMID_WAZAMASIN02",
+        "english_ui_name": "TM002",
+        "expected_category": 6
+    },
+    "330": {
+        "idx": 330,
+        "canonical_name": "ITEMID_WAZAMASIN03",
+        "english_ui_name": "TM003",
+        "expected_category": 6
+    },
+    "331": {
+        "idx": 331,
+        "canonical_name": "ITEMID_WAZAMASIN04",
+        "english_ui_name": "TM004",
+        "expected_category": 6
+    },
+    "332": {
+        "idx": 332,
+        "canonical_name": "ITEMID_WAZAMASIN05",
+        "english_ui_name": "TM005",
+        "expected_category": 6
+    },
+    "333": {
+        "idx": 333,
+        "canonical_name": "ITEMID_WAZAMASIN06",
+        "english_ui_name": "TM006",
+        "expected_category": 6
+    },
+    "334": {
+        "idx": 334,
+        "canonical_name": "ITEMID_WAZAMASIN07",
+        "english_ui_name": "TM007",
+        "expected_category": 6
+    },
+    "335": {
+        "idx": 335,
+        "canonical_name": "ITEMID_WAZAMASIN08",
+        "english_ui_name": "TM008",
+        "expected_category": 6
+    },
+    "336": {
+        "idx": 336,
+        "canonical_name": "ITEMID_WAZAMASIN09",
+        "english_ui_name": "TM009",
+        "expected_category": 6
+    },
+    "337": {
+        "idx": 337,
+        "canonical_name": "ITEMID_WAZAMASIN10",
+        "english_ui_name": "TM010",
+        "expected_category": 6
+    },
+    "338": {
+        "idx": 338,
+        "canonical_name": "ITEMID_WAZAMASIN11",
+        "english_ui_name": "TM011",
+        "expected_category": 6
+    },
+    "339": {
+        "idx": 339,
+        "canonical_name": "ITEMID_WAZAMASIN12",
+        "english_ui_name": "TM012",
+        "expected_category": 6
+    },
+    "340": {
+        "idx": 340,
+        "canonical_name": "ITEMID_WAZAMASIN13",
+        "english_ui_name": "TM013",
+        "expected_category": 6
+    },
+    "341": {
+        "idx": 341,
+        "canonical_name": "ITEMID_WAZAMASIN14",
+        "english_ui_name": "TM014",
+        "expected_category": 6
+    },
+    "342": {
+        "idx": 342,
+        "canonical_name": "ITEMID_WAZAMASIN15",
+        "english_ui_name": "TM015",
+        "expected_category": 6
+    },
+    "343": {
+        "idx": 343,
+        "canonical_name": "ITEMID_WAZAMASIN16",
+        "english_ui_name": "TM016",
+        "expected_category": 6
+    },
+    "344": {
+        "idx": 344,
+        "canonical_name": "ITEMID_WAZAMASIN17",
+        "english_ui_name": "TM017",
+        "expected_category": 6
+    },
+    "345": {
+        "idx": 345,
+        "canonical_name": "ITEMID_WAZAMASIN18",
+        "english_ui_name": "TM018",
+        "expected_category": 6
+    },
+    "346": {
+        "idx": 346,
+        "canonical_name": "ITEMID_WAZAMASIN19",
+        "english_ui_name": "TM019",
+        "expected_category": 6
+    },
+    "347": {
+        "idx": 347,
+        "canonical_name": "ITEMID_WAZAMASIN20",
+        "english_ui_name": "TM020",
+        "expected_category": 6
+    },
+    "348": {
+        "idx": 348,
+        "canonical_name": "ITEMID_WAZAMASIN21",
+        "english_ui_name": "TM021",
+        "expected_category": 6
+    },
+    "349": {
+        "idx": 349,
+        "canonical_name": "ITEMID_WAZAMASIN22",
+        "english_ui_name": "TM022",
+        "expected_category": 6
+    },
+    "350": {
+        "idx": 350,
+        "canonical_name": "ITEMID_WAZAMASIN23",
+        "english_ui_name": "TM023",
+        "expected_category": 6
+    },
+    "351": {
+        "idx": 351,
+        "canonical_name": "ITEMID_WAZAMASIN24",
+        "english_ui_name": "TM024",
+        "expected_category": 6
+    },
+    "352": {
+        "idx": 352,
+        "canonical_name": "ITEMID_WAZAMASIN25",
+        "english_ui_name": "TM025",
+        "expected_category": 6
+    },
+    "353": {
+        "idx": 353,
+        "canonical_name": "ITEMID_WAZAMASIN26",
+        "english_ui_name": "TM026",
+        "expected_category": 6
+    },
+    "354": {
+        "idx": 354,
+        "canonical_name": "ITEMID_WAZAMASIN27",
+        "english_ui_name": "TM027",
+        "expected_category": 6
+    },
+    "355": {
+        "idx": 355,
+        "canonical_name": "ITEMID_WAZAMASIN28",
+        "english_ui_name": "TM028",
+        "expected_category": 6
+    },
+    "356": {
+        "idx": 356,
+        "canonical_name": "ITEMID_WAZAMASIN29",
+        "english_ui_name": "TM029",
+        "expected_category": 6
+    },
+    "357": {
+        "idx": 357,
+        "canonical_name": "ITEMID_WAZAMASIN30",
+        "english_ui_name": "TM030",
+        "expected_category": 6
+    },
+    "358": {
+        "idx": 358,
+        "canonical_name": "ITEMID_WAZAMASIN31",
+        "english_ui_name": "TM031",
+        "expected_category": 6
+    },
+    "359": {
+        "idx": 359,
+        "canonical_name": "ITEMID_WAZAMASIN32",
+        "english_ui_name": "TM032",
+        "expected_category": 6
+    },
+    "360": {
+        "idx": 360,
+        "canonical_name": "ITEMID_WAZAMASIN33",
+        "english_ui_name": "TM033",
+        "expected_category": 6
+    },
+    "361": {
+        "idx": 361,
+        "canonical_name": "ITEMID_WAZAMASIN34",
+        "english_ui_name": "TM034",
+        "expected_category": 6
+    },
+    "362": {
+        "idx": 362,
+        "canonical_name": "ITEMID_WAZAMASIN35",
+        "english_ui_name": "TM035",
+        "expected_category": 6
+    },
+    "363": {
+        "idx": 363,
+        "canonical_name": "ITEMID_WAZAMASIN36",
+        "english_ui_name": "TM036",
+        "expected_category": 6
+    },
+    "364": {
+        "idx": 364,
+        "canonical_name": "ITEMID_WAZAMASIN37",
+        "english_ui_name": "TM037",
+        "expected_category": 6
+    },
+    "365": {
+        "idx": 365,
+        "canonical_name": "ITEMID_WAZAMASIN38",
+        "english_ui_name": "TM038",
+        "expected_category": 6
+    },
+    "366": {
+        "idx": 366,
+        "canonical_name": "ITEMID_WAZAMASIN39",
+        "english_ui_name": "TM039",
+        "expected_category": 6
+    },
+    "367": {
+        "idx": 367,
+        "canonical_name": "ITEMID_WAZAMASIN40",
+        "english_ui_name": "TM040",
+        "expected_category": 6
+    },
+    "368": {
+        "idx": 368,
+        "canonical_name": "ITEMID_WAZAMASIN41",
+        "english_ui_name": "TM041",
+        "expected_category": 6
+    },
+    "369": {
+        "idx": 369,
+        "canonical_name": "ITEMID_WAZAMASIN42",
+        "english_ui_name": "TM042",
+        "expected_category": 6
+    },
+    "370": {
+        "idx": 370,
+        "canonical_name": "ITEMID_WAZAMASIN43",
+        "english_ui_name": "TM043",
+        "expected_category": 6
+    },
+    "371": {
+        "idx": 371,
+        "canonical_name": "ITEMID_WAZAMASIN44",
+        "english_ui_name": "TM044",
+        "expected_category": 6
+    },
+    "372": {
+        "idx": 372,
+        "canonical_name": "ITEMID_WAZAMASIN45",
+        "english_ui_name": "TM045",
+        "expected_category": 6
+    },
+    "373": {
+        "idx": 373,
+        "canonical_name": "ITEMID_WAZAMASIN46",
+        "english_ui_name": "TM046",
+        "expected_category": 6
+    },
+    "374": {
+        "idx": 374,
+        "canonical_name": "ITEMID_WAZAMASIN47",
+        "english_ui_name": "TM047",
+        "expected_category": 6
+    },
+    "375": {
+        "idx": 375,
+        "canonical_name": "ITEMID_WAZAMASIN48",
+        "english_ui_name": "TM048",
+        "expected_category": 6
+    },
+    "376": {
+        "idx": 376,
+        "canonical_name": "ITEMID_WAZAMASIN49",
+        "english_ui_name": "TM049",
+        "expected_category": 6
+    },
+    "377": {
+        "idx": 377,
+        "canonical_name": "ITEMID_WAZAMASIN50",
+        "english_ui_name": "TM050",
+        "expected_category": 6
+    },
+    "378": {
+        "idx": 378,
+        "canonical_name": "ITEMID_WAZAMASIN51",
+        "english_ui_name": "TM051",
+        "expected_category": 6
+    },
+    "379": {
+        "idx": 379,
+        "canonical_name": "ITEMID_WAZAMASIN52",
+        "english_ui_name": "TM052",
+        "expected_category": 6
+    },
+    "380": {
+        "idx": 380,
+        "canonical_name": "ITEMID_WAZAMASIN53",
+        "english_ui_name": "TM053",
+        "expected_category": 6
+    },
+    "381": {
+        "idx": 381,
+        "canonical_name": "ITEMID_WAZAMASIN54",
+        "english_ui_name": "TM054",
+        "expected_category": 6
+    },
+    "382": {
+        "idx": 382,
+        "canonical_name": "ITEMID_WAZAMASIN55",
+        "english_ui_name": "TM055",
+        "expected_category": 6
+    },
+    "383": {
+        "idx": 383,
+        "canonical_name": "ITEMID_WAZAMASIN56",
+        "english_ui_name": "TM056",
+        "expected_category": 6
+    },
+    "384": {
+        "idx": 384,
+        "canonical_name": "ITEMID_WAZAMASIN57",
+        "english_ui_name": "TM057",
+        "expected_category": 6
+    },
+    "385": {
+        "idx": 385,
+        "canonical_name": "ITEMID_WAZAMASIN58",
+        "english_ui_name": "TM058",
+        "expected_category": 6
+    },
+    "386": {
+        "idx": 386,
+        "canonical_name": "ITEMID_WAZAMASIN59",
+        "english_ui_name": "TM059",
+        "expected_category": 6
+    },
+    "387": {
+        "idx": 387,
+        "canonical_name": "ITEMID_WAZAMASIN60",
+        "english_ui_name": "TM060",
+        "expected_category": 6
+    },
+    "388": {
+        "idx": 388,
+        "canonical_name": "ITEMID_WAZAMASIN61",
+        "english_ui_name": "TM061",
+        "expected_category": 6
+    },
+    "389": {
+        "idx": 389,
+        "canonical_name": "ITEMID_WAZAMASIN62",
+        "english_ui_name": "TM062",
+        "expected_category": 6
+    },
+    "390": {
+        "idx": 390,
+        "canonical_name": "ITEMID_WAZAMASIN63",
+        "english_ui_name": "TM063",
+        "expected_category": 6
+    },
+    "391": {
+        "idx": 391,
+        "canonical_name": "ITEMID_WAZAMASIN64",
+        "english_ui_name": "TM064",
+        "expected_category": 6
+    },
+    "392": {
+        "idx": 392,
+        "canonical_name": "ITEMID_WAZAMASIN65",
+        "english_ui_name": "TM065",
+        "expected_category": 6
+    },
+    "393": {
+        "idx": 393,
+        "canonical_name": "ITEMID_WAZAMASIN66",
+        "english_ui_name": "TM066",
+        "expected_category": 6
+    },
+    "394": {
+        "idx": 394,
+        "canonical_name": "ITEMID_WAZAMASIN67",
+        "english_ui_name": "TM067",
+        "expected_category": 6
+    },
+    "395": {
+        "idx": 395,
+        "canonical_name": "ITEMID_WAZAMASIN68",
+        "english_ui_name": "TM068",
+        "expected_category": 6
+    },
+    "396": {
+        "idx": 396,
+        "canonical_name": "ITEMID_WAZAMASIN69",
+        "english_ui_name": "TM069",
+        "expected_category": 6
+    },
+    "397": {
+        "idx": 397,
+        "canonical_name": "ITEMID_WAZAMASIN70",
+        "english_ui_name": "TM070",
+        "expected_category": 6
+    },
+    "398": {
+        "idx": 398,
+        "canonical_name": "ITEMID_WAZAMASIN71",
+        "english_ui_name": "TM071",
+        "expected_category": 6
+    },
+    "399": {
+        "idx": 399,
+        "canonical_name": "ITEMID_WAZAMASIN72",
+        "english_ui_name": "TM072",
+        "expected_category": 6
+    },
+    "400": {
+        "idx": 400,
+        "canonical_name": "ITEMID_WAZAMASIN73",
+        "english_ui_name": "TM073",
+        "expected_category": 6
+    },
+    "401": {
+        "idx": 401,
+        "canonical_name": "ITEMID_WAZAMASIN74",
+        "english_ui_name": "TM074",
+        "expected_category": 6
+    },
+    "402": {
+        "idx": 402,
+        "canonical_name": "ITEMID_WAZAMASIN75",
+        "english_ui_name": "TM075",
+        "expected_category": 6
+    },
+    "403": {
+        "idx": 403,
+        "canonical_name": "ITEMID_WAZAMASIN76",
+        "english_ui_name": "TM076",
+        "expected_category": 6
+    },
+    "404": {
+        "idx": 404,
+        "canonical_name": "ITEMID_WAZAMASIN77",
+        "english_ui_name": "TM077",
+        "expected_category": 6
+    },
+    "405": {
+        "idx": 405,
+        "canonical_name": "ITEMID_WAZAMASIN78",
+        "english_ui_name": "TM078",
+        "expected_category": 6
+    },
+    "406": {
+        "idx": 406,
+        "canonical_name": "ITEMID_WAZAMASIN79",
+        "english_ui_name": "TM079",
+        "expected_category": 6
+    },
+    "407": {
+        "idx": 407,
+        "canonical_name": "ITEMID_WAZAMASIN80",
+        "english_ui_name": "TM080",
+        "expected_category": 6
+    },
+    "408": {
+        "idx": 408,
+        "canonical_name": "ITEMID_WAZAMASIN81",
+        "english_ui_name": "TM081",
+        "expected_category": 6
+    },
+    "409": {
+        "idx": 409,
+        "canonical_name": "ITEMID_WAZAMASIN82",
+        "english_ui_name": "TM082",
+        "expected_category": 6
+    },
+    "410": {
+        "idx": 410,
+        "canonical_name": "ITEMID_WAZAMASIN83",
+        "english_ui_name": "TM083",
+        "expected_category": 6
+    },
+    "411": {
+        "idx": 411,
+        "canonical_name": "ITEMID_WAZAMASIN84",
+        "english_ui_name": "TM084",
+        "expected_category": 6
+    },
+    "412": {
+        "idx": 412,
+        "canonical_name": "ITEMID_WAZAMASIN85",
+        "english_ui_name": "TM085",
+        "expected_category": 6
+    },
+    "413": {
+        "idx": 413,
+        "canonical_name": "ITEMID_WAZAMASIN86",
+        "english_ui_name": "TM086",
+        "expected_category": 6
+    },
+    "414": {
+        "idx": 414,
+        "canonical_name": "ITEMID_WAZAMASIN87",
+        "english_ui_name": "TM087",
+        "expected_category": 6
+    },
+    "415": {
+        "idx": 415,
+        "canonical_name": "ITEMID_WAZAMASIN88",
+        "english_ui_name": "TM088",
+        "expected_category": 6
+    },
+    "416": {
+        "idx": 416,
+        "canonical_name": "ITEMID_WAZAMASIN89",
+        "english_ui_name": "TM089",
+        "expected_category": 6
+    },
+    "417": {
+        "idx": 417,
+        "canonical_name": "ITEMID_WAZAMASIN90",
+        "english_ui_name": "TM090",
+        "expected_category": 6
+    },
+    "418": {
+        "idx": 418,
+        "canonical_name": "ITEMID_WAZAMASIN91",
+        "english_ui_name": "TM091",
+        "expected_category": 6
+    },
+    "419": {
+        "idx": 419,
+        "canonical_name": "ITEMID_WAZAMASIN92",
+        "english_ui_name": "TM092",
+        "expected_category": 6
+    },
+    "492": {
+        "idx": 492,
+        "canonical_name": "ITEMID_SUPIIDOBOORU",
+        "english_ui_name": "Fast Ball",
+        "expected_category": 1
+    },
+    "493": {
+        "idx": 493,
+        "canonical_name": "ITEMID_REBERUBOORU",
+        "english_ui_name": "Level Ball",
+        "expected_category": 1
+    },
+    "494": {
+        "idx": 494,
+        "canonical_name": "ITEMID_RUAABOORU",
+        "english_ui_name": "Lure Ball",
+        "expected_category": 1
+    },
+    "495": {
+        "idx": 495,
+        "canonical_name": "ITEMID_HEBIIBOORU",
+        "english_ui_name": "Heavy Ball",
+        "expected_category": 1
+    },
+    "496": {
+        "idx": 496,
+        "canonical_name": "ITEMID_RABURABUBOORU",
+        "english_ui_name": "Love Ball",
+        "expected_category": 1
+    },
+    "497": {
+        "idx": 497,
+        "canonical_name": "ITEMID_HURENDOBOORU",
+        "english_ui_name": "Friend Ball",
+        "expected_category": 1
+    },
+    "498": {
+        "idx": 498,
+        "canonical_name": "ITEMID_MUUNBOORU",
+        "english_ui_name": "Moon Ball",
+        "expected_category": 1
+    },
+    "499": {
+        "idx": 499,
+        "canonical_name": "ITEMID_KONPEBOORU",
+        "english_ui_name": "Sport Ball",
+        "expected_category": 1
+    },
+    "538": {
+        "idx": 538,
+        "canonical_name": "ITEMID_SINKANOKISEKI",
+        "english_ui_name": "Eviolite",
+        "expected_category": 2
+    },
+    "540": {
+        "idx": 540,
+        "canonical_name": "ITEMID_GOTUGOTUMETTO",
+        "english_ui_name": "Rocky Helmet",
+        "expected_category": 2
+    },
+    "564": {
+        "idx": 564,
+        "canonical_name": "ITEMID_NOOMARUZYUERU",
+        "english_ui_name": "Normal Gem",
+        "expected_category": 2
+    },
+    "565": {
+        "idx": 565,
+        "canonical_name": "ITEMID_TAIRYOKUNOHANE",
+        "english_ui_name": "Health Feather",
+        "expected_category": 2
+    },
+    "566": {
+        "idx": 566,
+        "canonical_name": "ITEMID_KINRYOKUNOHANE",
+        "english_ui_name": "Muscle Feather",
+        "expected_category": 2
+    },
+    "567": {
+        "idx": 567,
+        "canonical_name": "ITEMID_TEIKOUNOHANE",
+        "english_ui_name": "Resist Feather",
+        "expected_category": 2
+    },
+    "568": {
+        "idx": 568,
+        "canonical_name": "ITEMID_TIRYOKUNOHANE",
+        "english_ui_name": "Genius Feather",
+        "expected_category": 2
+    },
+    "569": {
+        "idx": 569,
+        "canonical_name": "ITEMID_SEISINNOHANE",
+        "english_ui_name": "Clever Feather",
+        "expected_category": 2
+    },
+    "570": {
+        "idx": 570,
+        "canonical_name": "ITEMID_SYUNPATUNOHANE",
+        "english_ui_name": "Swift Feather",
+        "expected_category": 2
+    },
+    "571": {
+        "idx": 571,
+        "canonical_name": "ITEMID_KIREINAHANE",
+        "english_ui_name": "Pretty Feather",
+        "expected_category": 3
+    },
+    "576": {
+        "idx": 576,
+        "canonical_name": "ITEMID_DORIIMUBOORU",
+        "english_ui_name": "Dream Ball",
+        "expected_category": 1
+    },
+    "581": {
+        "idx": 581,
+        "canonical_name": "ITEMID_DEKAIKINNOTAMA",
+        "english_ui_name": "Big Nugget",
+        "expected_category": 3
+    },
+    "582": {
+        "idx": 582,
+        "canonical_name": "ITEMID_ODANGOSINZYU",
+        "english_ui_name": "Pearl String",
+        "expected_category": 3
+    },
+    "618": {
+        "idx": 618,
+        "canonical_name": "ITEMID_WAZAMASIN93",
+        "english_ui_name": "TM093",
+        "expected_category": 6
+    },
+    "619": {
+        "idx": 619,
+        "canonical_name": "ITEMID_WAZAMASIN94",
+        "english_ui_name": "TM094",
+        "expected_category": 6
+    },
+    "620": {
+        "idx": 620,
+        "canonical_name": "ITEMID_WAZAMASIN95",
+        "english_ui_name": "TM095",
+        "expected_category": 6
+    },
+    "632": {
+        "idx": 632,
+        "canonical_name": "ITEMID_HIKARUOMAMORI",
+        "english_ui_name": "Shiny Charm",
+        "expected_category": 4
+    },
+    "639": {
+        "idx": 639,
+        "canonical_name": "ITEMID_ZYAKUTENHOKEN",
+        "english_ui_name": "Weakness Policy",
+        "expected_category": 2
+    },
+    "640": {
+        "idx": 640,
+        "canonical_name": "ITEMID_TOTUGEKITYOKKI",
+        "english_ui_name": "Assault Vest",
+        "expected_category": 2
+    },
+    "646": {
+        "idx": 646,
+        "canonical_name": "ITEMID_HOIPPUPOPPU",
+        "english_ui_name": "Whipped Dream",
+        "expected_category": 2
+    },
+    "647": {
+        "idx": 647,
+        "canonical_name": "ITEMID_NIOIBUKURO",
+        "english_ui_name": "Sachet",
+        "expected_category": 2
+    },
+    "656": {
+        "idx": 656,
+        "canonical_name": "ITEMID_GENGANAITO",
+        "english_ui_name": "Gengarite",
+        "expected_category": 7
+    },
+    "657": {
+        "idx": 657,
+        "canonical_name": "ITEMID_SAANAITONAITO",
+        "english_ui_name": "Gardevoirite",
+        "expected_category": 7
+    },
+    "658": {
+        "idx": 658,
+        "canonical_name": "ITEMID_DENRYUUNAITO",
+        "english_ui_name": "Ampharosite",
+        "expected_category": 7
+    },
+    "659": {
+        "idx": 659,
+        "canonical_name": "ITEMID_HUSIGIBANAITO",
+        "english_ui_name": "Venusaurite",
+        "expected_category": 7
+    },
+    "660": {
+        "idx": 660,
+        "canonical_name": "ITEMID_RIZAADONAITOx",
+        "english_ui_name": "Charizardite X",
+        "expected_category": 7
+    },
+    "661": {
+        "idx": 661,
+        "canonical_name": "ITEMID_KAMEKKUSUNAITO",
+        "english_ui_name": "Blastoisinite",
+        "expected_category": 7
+    },
+    "662": {
+        "idx": 662,
+        "canonical_name": "ITEMID_MYUUTUNAITOx",
+        "english_ui_name": "Mewtwonite X",
+        "expected_category": 7
+    },
+    "663": {
+        "idx": 663,
+        "canonical_name": "ITEMID_MYUUTUNAITOy",
+        "english_ui_name": "Mewtwonite Y",
+        "expected_category": 7
+    },
+    "665": {
+        "idx": 665,
+        "canonical_name": "ITEMID_TYAAREMUNAITO",
+        "english_ui_name": "Medichamite",
+        "expected_category": 7
+    },
+    "666": {
+        "idx": 666,
+        "canonical_name": "ITEMID_HERUGANAITO",
+        "english_ui_name": "Houndoominite",
+        "expected_category": 7
+    },
+    "667": {
+        "idx": 667,
+        "canonical_name": "ITEMID_BOSUGODORANAITO",
+        "english_ui_name": "Aggronite",
+        "expected_category": 7
+    },
+    "668": {
+        "idx": 668,
+        "canonical_name": "ITEMID_ZYUPETTANAITO",
+        "english_ui_name": "Banettite",
+        "expected_category": 7
+    },
+    "669": {
+        "idx": 669,
+        "canonical_name": "ITEMID_BANGIRASUNAITO",
+        "english_ui_name": "Tyranitarite",
+        "expected_category": 7
+    },
+    "670": {
+        "idx": 670,
+        "canonical_name": "ITEMID_HASSAMUNAITO",
+        "english_ui_name": "Scizorite",
+        "expected_category": 7
+    },
+    "671": {
+        "idx": 671,
+        "canonical_name": "ITEMID_KAIROSUNAITO",
+        "english_ui_name": "Pinsirite",
+        "expected_category": 7
+    },
+    "672": {
+        "idx": 672,
+        "canonical_name": "ITEMID_PUTERANAITO",
+        "english_ui_name": "Aerodactylite",
+        "expected_category": 7
+    },
+    "673": {
+        "idx": 673,
+        "canonical_name": "ITEMID_RUKARIONAITO",
+        "english_ui_name": "Lucarionite",
+        "expected_category": 7
+    },
+    "674": {
+        "idx": 674,
+        "canonical_name": "ITEMID_YUKINOONAITO",
+        "english_ui_name": "Abomasite",
+        "expected_category": 7
+    },
+    "675": {
+        "idx": 675,
+        "canonical_name": "ITEMID_GARUURANAITO",
+        "english_ui_name": "Kangaskhanite",
+        "expected_category": 7
+    },
+    "676": {
+        "idx": 676,
+        "canonical_name": "ITEMID_GYARADOSUNAITO",
+        "english_ui_name": "Gyaradosite",
+        "expected_category": 7
+    },
+    "677": {
+        "idx": 677,
+        "canonical_name": "ITEMID_ABUSORUNAITO",
+        "english_ui_name": "Absolite",
+        "expected_category": 7
+    },
+    "678": {
+        "idx": 678,
+        "canonical_name": "ITEMID_RIZAADONAITOy",
+        "english_ui_name": "Charizardite Y",
+        "expected_category": 7
+    },
+    "679": {
+        "idx": 679,
+        "canonical_name": "ITEMID_HUUDHINAITO",
+        "english_ui_name": "Alakazite",
+        "expected_category": 7
+    },
+    "680": {
+        "idx": 680,
+        "canonical_name": "ITEMID_HERAKUROSUNAITO",
+        "english_ui_name": "Heracronite",
+        "expected_category": 7
+    },
+    "681": {
+        "idx": 681,
+        "canonical_name": "ITEMID_KUTIITONAITO",
+        "english_ui_name": "Mawilite",
+        "expected_category": 7
+    },
+    "682": {
+        "idx": 682,
+        "canonical_name": "ITEMID_RAIBORUTONAITO",
+        "english_ui_name": "Manectite",
+        "expected_category": 7
+    },
+    "683": {
+        "idx": 683,
+        "canonical_name": "ITEMID_GABURIASUNAITO",
+        "english_ui_name": "Garchompite",
+        "expected_category": 7
+    },
+    "686": {
+        "idx": 686,
+        "canonical_name": "ITEMID_ROZERUNOMI",
+        "english_ui_name": "Roseli Berry",
+        "expected_category": 5
+    },
+    "690": {
+        "idx": 690,
+        "canonical_name": "ITEMID_WAZAMASIN96",
+        "english_ui_name": "TM096",
+        "expected_category": 6
+    },
+    "691": {
+        "idx": 691,
+        "canonical_name": "ITEMID_WAZAMASIN97",
+        "english_ui_name": "TM097",
+        "expected_category": 6
+    },
+    "692": {
+        "idx": 692,
+        "canonical_name": "ITEMID_WAZAMASIN98",
+        "english_ui_name": "TM098",
+        "expected_category": 6
+    },
+    "693": {
+        "idx": 693,
+        "canonical_name": "ITEMID_WAZAMASIN99",
+        "english_ui_name": "TM099",
+        "expected_category": 6
+    },
+    "700": {
+        "idx": 700,
+        "canonical_name": "ITEMID_EREBEETANOKII",
+        "english_ui_name": "Elevator Key",
+        "expected_category": 4
+    },
+    "708": {
+        "idx": 708,
+        "canonical_name": "ITEMID_MIAREGARETTO",
+        "english_ui_name": "Lumiose Galette",
+        "expected_category": 0
+    },
+    "710": {
+        "idx": 710,
+        "canonical_name": "ITEMID_AGONOKASEKI",
+        "english_ui_name": "Jaw Fossil",
+        "expected_category": 2
+    },
+    "711": {
+        "idx": 711,
+        "canonical_name": "ITEMID_HIRENOKASEKI",
+        "english_ui_name": "Sail Fossil",
+        "expected_category": 2
+    },
+    "754": {
+        "idx": 754,
+        "canonical_name": "ITEMID_YAMIRAMINAITO",
+        "english_ui_name": "Sablenite",
+        "expected_category": 7
+    },
+    "755": {
+        "idx": 755,
+        "canonical_name": "ITEMID_TIRUTARISUNAITO",
+        "english_ui_name": "Altarianite",
+        "expected_category": 7
+    },
+    "756": {
+        "idx": 756,
+        "canonical_name": "ITEMID_ERUREIDONAITO",
+        "english_ui_name": "Galladite",
+        "expected_category": 7
+    },
+    "757": {
+        "idx": 757,
+        "canonical_name": "ITEMID_TABUNNENAITO",
+        "english_ui_name": "Audinite",
+        "expected_category": 7
+    },
+    "758": {
+        "idx": 758,
+        "canonical_name": "ITEMID_METAGUROSUNAITO",
+        "english_ui_name": "Metagrossite",
+        "expected_category": 7
+    },
+    "759": {
+        "idx": 759,
+        "canonical_name": "ITEMID_SAMEHADANAITO",
+        "english_ui_name": "Sharpedonite",
+        "expected_category": 7
+    },
+    "760": {
+        "idx": 760,
+        "canonical_name": "ITEMID_YADORANNAITO",
+        "english_ui_name": "Slowbronite",
+        "expected_category": 7
+    },
+    "761": {
+        "idx": 761,
+        "canonical_name": "ITEMID_HAGANEERUNAITO",
+        "english_ui_name": "Steelixite",
+        "expected_category": 7
+    },
+    "762": {
+        "idx": 762,
+        "canonical_name": "ITEMID_PIZYOTTONAITO",
+        "english_ui_name": "Pidgeotite",
+        "expected_category": 7
+    },
+    "763": {
+        "idx": 763,
+        "canonical_name": "ITEMID_ONIGOORINAITO",
+        "english_ui_name": "Glalitite",
+        "expected_category": 7
+    },
+    "764": {
+        "idx": 764,
+        "canonical_name": "ITEMID_DHIANSINAITO",
+        "english_ui_name": "Diancite",
+        "expected_category": 7
+    },
+    "765": {
+        "idx": 765,
+        "canonical_name": "ITEMID_IMASIMENOTUBO",
+        "english_ui_name": "Prison Bottle",
+        "expected_category": 4
+    },
+    "767": {
+        "idx": 767,
+        "canonical_name": "ITEMID_BAKUUDANAITO",
+        "english_ui_name": "Cameruptite",
+        "expected_category": 7
+    },
+    "768": {
+        "idx": 768,
+        "canonical_name": "ITEMID_MIMIROPPUNAITO",
+        "english_ui_name": "Lopunnite",
+        "expected_category": 7
+    },
+    "769": {
+        "idx": 769,
+        "canonical_name": "ITEMID_BOOMANDANAITO",
+        "english_ui_name": "Salamencite",
+        "expected_category": 7
+    },
+    "770": {
+        "idx": 770,
+        "canonical_name": "ITEMID_SUPIANAITO",
+        "english_ui_name": "Beedrillite",
+        "expected_category": 7
+    },
+    "795": {
+        "idx": 795,
+        "canonical_name": "ITEMID_GINNOOUKAN",
+        "english_ui_name": "Bottle Cap",
+        "expected_category": 2
+    },
+    "796": {
+        "idx": 796,
+        "canonical_name": "ITEMID_KINNOOUKAN",
+        "english_ui_name": "Gold Bottle Cap",
+        "expected_category": 2
+    },
+    "847": {
+        "idx": 847,
+        "canonical_name": "ITEMID_ZIGARUDEKYUUBU",
+        "english_ui_name": "Zygarde Cube",
+        "expected_category": 4
+    },
+    "849": {
+        "idx": 849,
+        "canonical_name": "ITEMID_KOORINOISI",
+        "english_ui_name": "Ice Stone",
+        "expected_category": 2
+    },
+    "851": {
+        "idx": 851,
+        "canonical_name": "ITEMID_URUTORABOORU",
+        "english_ui_name": "Beast Ball",
+        "expected_category": 1
+    },
+    "1124": {
+        "idx": 1124,
+        "canonical_name": "ITEMID_KEIKENTIAME_1",
+        "english_ui_name": "Exp. Candy XS",
+        "expected_category": 2
+    },
+    "1125": {
+        "idx": 1125,
+        "canonical_name": "ITEMID_KEIKENTIAME_2",
+        "english_ui_name": "Exp. Candy S",
+        "expected_category": 2
+    },
+    "1126": {
+        "idx": 1126,
+        "canonical_name": "ITEMID_KEIKENTIAME_3",
+        "english_ui_name": "Exp. Candy M",
+        "expected_category": 2
+    },
+    "1127": {
+        "idx": 1127,
+        "canonical_name": "ITEMID_KEIKENTIAME_4",
+        "english_ui_name": "Exp. Candy L",
+        "expected_category": 2
+    },
+    "1128": {
+        "idx": 1128,
+        "canonical_name": "ITEMID_KEIKENTIAME_5",
+        "english_ui_name": "Exp. Candy XL",
+        "expected_category": 2
+    },
+    "1231": {
+        "idx": 1231,
+        "canonical_name": "ITEMID_SAMISIGARIMINTO",
+        "english_ui_name": "Lonely Mint",
+        "expected_category": 2
+    },
+    "1232": {
+        "idx": 1232,
+        "canonical_name": "ITEMID_IZIPPARIMINTO",
+        "english_ui_name": "Adamant Mint",
+        "expected_category": 2
+    },
+    "1233": {
+        "idx": 1233,
+        "canonical_name": "ITEMID_YANTYAMINTO",
+        "english_ui_name": "Naughty Mint",
+        "expected_category": 2
+    },
+    "1234": {
+        "idx": 1234,
+        "canonical_name": "ITEMID_YUKANMINTO",
+        "english_ui_name": "Brave Mint",
+        "expected_category": 2
+    },
+    "1235": {
+        "idx": 1235,
+        "canonical_name": "ITEMID_ZUBUTOIMINTO",
+        "english_ui_name": "Bold Mint",
+        "expected_category": 2
+    },
+    "1236": {
+        "idx": 1236,
+        "canonical_name": "ITEMID_WANPAKUMINTO",
+        "english_ui_name": "Impish Mint",
+        "expected_category": 2
+    },
+    "1237": {
+        "idx": 1237,
+        "canonical_name": "ITEMID_NOUTENKIMINTO",
+        "english_ui_name": "Lax Mint",
+        "expected_category": 2
+    },
+    "1238": {
+        "idx": 1238,
+        "canonical_name": "ITEMID_NONKIMINTO",
+        "english_ui_name": "Relaxed Mint",
+        "expected_category": 2
+    },
+    "1239": {
+        "idx": 1239,
+        "canonical_name": "ITEMID_HIKAEMEMINTO",
+        "english_ui_name": "Modest Mint",
+        "expected_category": 2
+    },
+    "1240": {
+        "idx": 1240,
+        "canonical_name": "ITEMID_OTTORIMINTO",
+        "english_ui_name": "Mild Mint",
+        "expected_category": 2
+    },
+    "1241": {
+        "idx": 1241,
+        "canonical_name": "ITEMID_UKKARIMINTO",
+        "english_ui_name": "Rash Mint",
+        "expected_category": 2
+    },
+    "1242": {
+        "idx": 1242,
+        "canonical_name": "ITEMID_REISEIMINTO",
+        "english_ui_name": "Quiet Mint",
+        "expected_category": 2
+    },
+    "1243": {
+        "idx": 1243,
+        "canonical_name": "ITEMID_ODAYAKAMINTO",
+        "english_ui_name": "Calm Mint",
+        "expected_category": 2
+    },
+    "1244": {
+        "idx": 1244,
+        "canonical_name": "ITEMID_OTONASIIMINTO",
+        "english_ui_name": "Gentle Mint",
+        "expected_category": 2
+    },
+    "1245": {
+        "idx": 1245,
+        "canonical_name": "ITEMID_SINTYOUMINTO",
+        "english_ui_name": "Careful Mint",
+        "expected_category": 2
+    },
+    "1246": {
+        "idx": 1246,
+        "canonical_name": "ITEMID_NAMAIKIMINTO",
+        "english_ui_name": "Sassy Mint",
+        "expected_category": 2
+    },
+    "1247": {
+        "idx": 1247,
+        "canonical_name": "ITEMID_OKUBYOUMINTO",
+        "english_ui_name": "Timid Mint",
+        "expected_category": 2
+    },
+    "1248": {
+        "idx": 1248,
+        "canonical_name": "ITEMID_SEKKTIMINTO",
+        "english_ui_name": "Hasty Mint",
+        "expected_category": 2
+    },
+    "1249": {
+        "idx": 1249,
+        "canonical_name": "ITEMID_YOUKIMINTO",
+        "english_ui_name": "Jolly Mint",
+        "expected_category": 2
+    },
+    "1250": {
+        "idx": 1250,
+        "canonical_name": "ITEMID_MUJYAKIMINTO",
+        "english_ui_name": "Naive Mint",
+        "expected_category": 2
+    },
+    "1251": {
+        "idx": 1251,
+        "canonical_name": "ITEMID_MAZIMEMINTO",
+        "english_ui_name": "Serious Mint",
+        "expected_category": 2
+    },
+    "1582": {
+        "idx": 1582,
+        "canonical_name": "ITEMID_GARANATUBURESU",
+        "english_ui_name": "Galarica Cuff",
+        "expected_category": 2
+    },
+    "1592": {
+        "idx": 1592,
+        "canonical_name": "ITEMID_GARANATURIISU",
+        "english_ui_name": "Galarica Wreath",
+        "expected_category": 2
+    },
+    "2160": {
+        "idx": 2160,
+        "canonical_name": "ITEMID_WAZAMASIN100",
+        "english_ui_name": "TM100",
+        "expected_category": 6
+    },
+    "2162": {
+        "idx": 2162,
+        "canonical_name": "ITEMID_WAZAMASIN102",
+        "english_ui_name": "TM102",
+        "expected_category": 6
+    },
+    "2163": {
+        "idx": 2163,
+        "canonical_name": "ITEMID_WAZAMASIN103",
+        "english_ui_name": "TM103",
+        "expected_category": 6
+    },
+    "2164": {
+        "idx": 2164,
+        "canonical_name": "ITEMID_WAZAMASIN104",
+        "english_ui_name": "TM104",
+        "expected_category": 6
+    },
+    "2165": {
+        "idx": 2165,
+        "canonical_name": "ITEMID_WAZAMASIN105",
+        "english_ui_name": "TM105",
+        "expected_category": 6
+    },
+    "2166": {
+        "idx": 2166,
+        "canonical_name": "ITEMID_WAZAMASIN106",
+        "english_ui_name": "TM106",
+        "expected_category": 6
+    },
+    "2167": {
+        "idx": 2167,
+        "canonical_name": "ITEMID_WAZAMASIN107",
+        "english_ui_name": "TM107",
+        "expected_category": 6
+    },
+    "2168": {
+        "idx": 2168,
+        "canonical_name": "ITEMID_WAZAMASIN108",
+        "english_ui_name": "TM108",
+        "expected_category": 6
+    },
+    "2401": {
+        "idx": 2401,
+        "canonical_name": "ITEMID_YOUSEINOHANE",
+        "english_ui_name": "Fairy Feather",
+        "expected_category": 2
+    },
+    "2558": {
+        "idx": 2558,
+        "canonical_name": "ITEMID_KAIDENNOTANE",
+        "english_ui_name": "Seed of Mastery",
+        "expected_category": 2
+    },
+    "2559": {
+        "idx": 2559,
+        "canonical_name": "ITEMID_PIKUSINAITO",
+        "english_ui_name": "Clefablite",
+        "expected_category": 7
+    },
+    "2560": {
+        "idx": 2560,
+        "canonical_name": "ITEMID_UTUBOTTONAITO",
+        "english_ui_name": "Victreebelite",
+        "expected_category": 7
+    },
+    "2561": {
+        "idx": 2561,
+        "canonical_name": "ITEMID_STAAMIINAITO",
+        "english_ui_name": "Starminite",
+        "expected_category": 7
+    },
+    "2562": {
+        "idx": 2562,
+        "canonical_name": "ITEMID_KAIRYUNAITO",
+        "english_ui_name": "Dragoninite",
+        "expected_category": 7
+    },
+    "2563": {
+        "idx": 2563,
+        "canonical_name": "ITEMID_MEGANIUMUNAITO",
+        "english_ui_name": "Meganiumite",
+        "expected_category": 7
+    },
+    "2564": {
+        "idx": 2564,
+        "canonical_name": "ITEMID_OODAIRUNAITO",
+        "english_ui_name": "Feraligite",
+        "expected_category": 7
+    },
+    "2565": {
+        "idx": 2565,
+        "canonical_name": "ITEMID_EAAMUDONAITO",
+        "english_ui_name": "Skarmorite",
+        "expected_category": 7
+    },
+    "2566": {
+        "idx": 2566,
+        "canonical_name": "ITEMID_YUKIMENOKONAITO",
+        "english_ui_name": "Froslassite",
+        "expected_category": 7
+    },
+    "2569": {
+        "idx": 2569,
+        "canonical_name": "ITEMID_ENBUONAITO",
+        "english_ui_name": "Emboarite",
+        "expected_category": 7
+    },
+    "2570": {
+        "idx": 2570,
+        "canonical_name": "ITEMID_DORYUUZUNAITO",
+        "english_ui_name": "Excadrite",
+        "expected_category": 7
+    },
+    "2571": {
+        "idx": 2571,
+        "canonical_name": "ITEMID_PENDORANAITO",
+        "english_ui_name": "Scolipite",
+        "expected_category": 7
+    },
+    "2572": {
+        "idx": 2572,
+        "canonical_name": "ITEMID_ZURUZUKINAITO",
+        "english_ui_name": "Scraftinite",
+        "expected_category": 7
+    },
+    "2573": {
+        "idx": 2573,
+        "canonical_name": "ITEMID_SIBIRUDONAITO",
+        "english_ui_name": "Eelektrossite",
+        "expected_category": 7
+    },
+    "2574": {
+        "idx": 2574,
+        "canonical_name": "ITEMID_SYANDERANAITO",
+        "english_ui_name": "Chandelurite",
+        "expected_category": 7
+    },
+    "2575": {
+        "idx": 2575,
+        "canonical_name": "ITEMID_BURIGARONAITO",
+        "english_ui_name": "Chesnaughtite",
+        "expected_category": 7
+    },
+    "2576": {
+        "idx": 2576,
+        "canonical_name": "ITEMID_MAFOKUSINAITO",
+        "english_ui_name": "Delphoxite",
+        "expected_category": 7
+    },
+    "2577": {
+        "idx": 2577,
+        "canonical_name": "ITEMID_GEKKOUGANAITO",
+        "english_ui_name": "Greninjite",
+        "expected_category": 7
+    },
+    "2578": {
+        "idx": 2578,
+        "canonical_name": "ITEMID_KAENZISINAITO",
+        "english_ui_name": "Pyroarite",
+        "expected_category": 7
+    },
+    "2579": {
+        "idx": 2579,
+        "canonical_name": "ITEMID_HURAETTENAITO",
+        "english_ui_name": "Floettite",
+        "expected_category": 7
+    },
+    "2580": {
+        "idx": 2580,
+        "canonical_name": "ITEMID_KARAMANERONAITO",
+        "english_ui_name": "Malamarite",
+        "expected_category": 7
+    },
+    "2581": {
+        "idx": 2581,
+        "canonical_name": "ITEMID_GAMENODESUNAITO",
+        "english_ui_name": "Barbaracite",
+        "expected_category": 7
+    },
+    "2582": {
+        "idx": 2582,
+        "canonical_name": "ITEMID_DORAMIDORONAITO",
+        "english_ui_name": "Dragalgite",
+        "expected_category": 7
+    },
+    "2583": {
+        "idx": 2583,
+        "canonical_name": "ITEMID_RUTYABURUNAITO",
+        "english_ui_name": "Hawluchanite",
+        "expected_category": 7
+    },
+    "2584": {
+        "idx": 2584,
+        "canonical_name": "ITEMID_ZIGARUDENAITO",
+        "english_ui_name": "Zygardite",
+        "expected_category": 7
+    },
+    "2585": {
+        "idx": 2585,
+        "canonical_name": "ITEMID_ZIZIIRONAITO",
+        "english_ui_name": "Drampanite",
+        "expected_category": 7
+    },
+    "2587": {
+        "idx": 2587,
+        "canonical_name": "ITEMID_TAIREETUNAITO",
+        "english_ui_name": "Falinksite",
+        "expected_category": 7
+    },
+    "2588": {
+        "idx": 2588,
+        "canonical_name": "ITEMID_202GOUSITUNOKAGI",
+        "english_ui_name": "Key to Room 202",
+        "expected_category": 4
+    },
+    "2589": {
+        "idx": 2589,
+        "canonical_name": "ITEMID_SUGOIMIAREGARETTO",
+        "english_ui_name": "Super Lumiose Galette",
+        "expected_category": 4
+    },
+    "2590": {
+        "idx": 2590,
+        "canonical_name": "ITEMID_RABONOKAADOKIIA",
+        "english_ui_name": "Lab Key Card A",
+        "expected_category": 4
+    },
+    "2591": {
+        "idx": 2591,
+        "canonical_name": "ITEMID_RABONOKAADOKIIB",
+        "english_ui_name": "Lab Key Card B",
+        "expected_category": 4
+    },
+    "2592": {
+        "idx": 2592,
+        "canonical_name": "ITEMID_RABONOKAADOKIIC",
+        "english_ui_name": "Lab Key Card C",
+        "expected_category": 4
+    },
+    "2595": {
+        "idx": 2595,
+        "canonical_name": "ITEMID_ISHIKORO",
+        "english_ui_name": "Pebble",
+        "expected_category": 4
+    },
+    "2596": {
+        "idx": 2596,
+        "canonical_name": "ITEMID_OMOIDENOYUBIWA",
+        "english_ui_name": "Cherished Ring",
+        "expected_category": 4
+    },
+    "2597": {
+        "idx": 2597,
+        "canonical_name": "ITEMID_SAINIRINONUI",
+        "english_ui_name": "Autographed Plush",
+        "expected_category": 4
+    },
+    "2598": {
+        "idx": 2598,
+        "canonical_name": "ITEMID_OISHIIGOMI",
+        "english_ui_name": "Tasty Trash",
+        "expected_category": 4
+    },
+    "2599": {
+        "idx": 2599,
+        "canonical_name": "ITEMID_GENKINOKOEDA",
+        "english_ui_name": "Revitalizing Twig",
+        "expected_category": 4
+    },
+    "2600": {
+        "idx": 2600,
+        "canonical_name": "ITEMID_DAIZINAMONO13",
+        "english_ui_name": "Lida\u2019s Things",
+        "expected_category": 4
+    },
+    "2618": {
+        "idx": 2618,
+        "canonical_name": "ITEMID_MEGAKAKERA",
+        "english_ui_name": "Mega Shard",
+        "expected_category": 2
+    },
+    "2619": {
+        "idx": 2619,
+        "canonical_name": "ITEMID_OMAMORISOZAI",
+        "english_ui_name": "Colorful Screw",
+        "expected_category": 2
+    },
+    "2620": {
+        "idx": 2620,
+        "canonical_name": "ITEMID_AKANOKANARYINUI1",
+        "english_ui_name": "Red Canari Plush",
+        "expected_category": 4
+    },
+    "2621": {
+        "idx": 2621,
+        "canonical_name": "ITEMID_AKANOKANARYINUI2",
+        "english_ui_name": "Red Canari Plush",
+        "expected_category": 4
+    },
+    "2622": {
+        "idx": 2622,
+        "canonical_name": "ITEMID_AKANOKANARYINUI3",
+        "english_ui_name": "Red Canari Plush",
+        "expected_category": 4
+    },
+    "2623": {
+        "idx": 2623,
+        "canonical_name": "ITEMID_KINNOKANARYINUI1",
+        "english_ui_name": "Gold Canari Plush",
+        "expected_category": 4
+    },
+    "2624": {
+        "idx": 2624,
+        "canonical_name": "ITEMID_KINNOKANARYINUI2",
+        "english_ui_name": "Gold Canari Plush",
+        "expected_category": 4
+    },
+    "2625": {
+        "idx": 2625,
+        "canonical_name": "ITEMID_KINNOKANARYINUI3",
+        "english_ui_name": "Gold Canari Plush",
+        "expected_category": 4
+    },
+    "2626": {
+        "idx": 2626,
+        "canonical_name": "ITEMID_PINKUNOKANARYINUI1",
+        "english_ui_name": "Pink Canari Plush",
+        "expected_category": 4
+    },
+    "2627": {
+        "idx": 2627,
+        "canonical_name": "ITEMID_PINKUNOKANARYINUI2",
+        "english_ui_name": "Pink Canari Plush",
+        "expected_category": 4
+    },
+    "2628": {
+        "idx": 2628,
+        "canonical_name": "ITEMID_PINKUNOKANARYINUI3",
+        "english_ui_name": "Pink Canari Plush",
+        "expected_category": 4
+    },
+    "2629": {
+        "idx": 2629,
+        "canonical_name": "ITEMID_MIDORINOKANARYINUI1",
+        "english_ui_name": "Green Canari Plush",
+        "expected_category": 4
+    },
+    "2630": {
+        "idx": 2630,
+        "canonical_name": "ITEMID_MIDORINOKANARYINUI2",
+        "english_ui_name": "Green Canari Plush",
+        "expected_category": 4
+    },
+    "2631": {
+        "idx": 2631,
+        "canonical_name": "ITEMID_MIDORINOKANARYINUI3",
+        "english_ui_name": "Green Canari Plush",
+        "expected_category": 4
+    },
+    "2632": {
+        "idx": 2632,
+        "canonical_name": "ITEMID_AONOKANARYINUI1",
+        "english_ui_name": "Blue Canari Plush",
+        "expected_category": 4
+    },
+    "2633": {
+        "idx": 2633,
+        "canonical_name": "ITEMID_AONOKANARYINUI2",
+        "english_ui_name": "Blue Canari Plush",
+        "expected_category": 4
+    },
+    "2634": {
+        "idx": 2634,
+        "canonical_name": "ITEMID_AONOKANARYINUI3",
+        "english_ui_name": "Blue Canari Plush",
+        "expected_category": 4
+    }
+}

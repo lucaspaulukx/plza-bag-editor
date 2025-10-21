@@ -1,4 +1,4 @@
-# PLZA Save Recovery Tool
+# PLZA Save Edit and Recovery Tool
 <sub>This project is not associated with TPC (The Pokémon Company), GameFreak, Nintendo nor any other entity.</sub>
 
 ---
@@ -84,3 +84,4 @@ Modified save written to: C:\Users\YourName\Desktop\main_modified
 - **GameFreak** for creating the game.
 
 ---
+
